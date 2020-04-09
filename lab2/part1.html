@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 2: Intro to Three.js Part 1</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+		<script>
+			// Our Javascript will go here.
+
+		var scene = new THREE.Scene();
+		var camera = new THREE.PerspectiveCamera(75, 
+		window.innerWidth/window.innerHeight, 0.1, 1000);
+
+		var renderer = new THREE.WebGLRenderer();
+		renderer.setSize(window.innerWidth, window.innerHeight);
+		document.body.appendChild(renderer.domElement);
+
+		//cube 1
+		var geometry = new THREE.BoxGeometry();
+		var green = new THREE.MeshBasicMaterial( {color: 0x00b505} );
+		var blue = new THREE.MeshBasicMaterial( {color: 0x0000ff} );
+		var red = new THREE.MeshBasicMaterial( {color: 0xff0000} );
+		var greenCube = new THREE.Mesh(geometry, green);
+		var blueCube = new THREE.Mesh(geometry, blue);
+		var redCube = new THREE.Mesh(geometry, red);
+
+		//right
+		scene.add(greenCube);
+		greenCube.translateX(2,0,0);
+
+		//left
+		scene.add(blueCube);
+		blueCube.translateX(-2,0,0);
+
+		//above
+		scene.add(redCube);
+		redCube.translateX(0,5,2);
+
+
+		camera.position.z = 5; //this moves the camera towards the viewer
+
+		function animate() {
+
+			//greencube animation
+			greenCube.rotateZ(-0.05);
+			greenCube.rotateY(0.05);
+
+			//bluecube animation
+			blueCube.rotateZ(0.05);
+			blueCube.rotateY(-0.05);
+
+			redCube.rotateX(-0.05);
+
+			requestAnimationFrame(animate);
+			renderer.render(scene, camera);
+		}
+		animate();
+
+
+
+		</script>
+	</body>
+</html>
