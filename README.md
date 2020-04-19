@@ -3,6 +3,7 @@
 **Lab 2**
 
 Part 1: https://drive.google.com/open?id=1lW7BqxMg_80I0Vx9bsRtYORlVL4aem9X
+
 Part 2:
 ![](lab2/Lab2Part2Scene.PNG)
 
@@ -10,6 +11,7 @@ Part 2:
 **Lab 3:**
 
 https://drive.google.com/open?id=1aG4XlvxEIlUPwxaOiAzviF8coh1nuDUt
+
 (phone recording washed out colors, but all four cubes have different values)
 
 Top Cube: The example blue cube made with custom shaders. Rotation and values unchanged.
