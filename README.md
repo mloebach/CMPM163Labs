@@ -22,3 +22,12 @@ Left Cube: Cube made from three.js phong material with altered shine and color v
 Right Cube: Cube made from the three.js phong material example. Color and shine unchanged. Rotation changed.
 
 Bottom Cube: Cube made with custom shaders. New values for uniform added. Rotation changed.
+
+
+**Lab 4:**
+
+24a. (max X size) * u = x
+
+24b. (max Y size) * (1 - v) = y
+
+24c. (3,6) = white
