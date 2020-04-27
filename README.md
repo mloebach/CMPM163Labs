@@ -26,6 +26,16 @@ Bottom Cube: Cube made with custom shaders. New values for uniform added. Rotati
 
 **Lab 4:**
 
+Top Cube: Fourth Cube. Created as the second cube with a shader. Single tiling. Includes normal map. Unique texture.
+
+Left Cube: First Cube. Created as a cube with basic texture functionality but no normals.
+
+Middle Cube: Second Cube. Created as cube with basic texture functionality and normal map.
+
+Right Cube: Third Cube. Created as first cube with shader. Single tiling. Includes normal map. Unique texture.
+
+Bottom Cube: Fifth Cube. Created to implement multi-tiles on one surface, in this case four. Includes shader, normal map, and unique texture.
+
 24a. (max X size) * u = x
 
 24b. (max Y size) * (1 - v) = y
