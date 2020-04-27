@@ -34,7 +34,7 @@ Middle Cube: Second Cube. Created as cube with basic texture functionality and n
 
 Right Cube: Third Cube. Created as first cube with shader. Single tiling. Includes normal map. Unique texture.
 
-Bottom Cube: Fifth Cube. Created to implement multi-tiles on one surface, in this case four. Includes shader, normal map, and unique texture.
+Bottom Cube: Fifth Cube. Created to implement multi-tiles on one surface, in this case Four. Solved by using the modulus function to get the remainder of the position (multiplied by however many tiles we need) when divided by 1, to prevent out of bounds colors. Includes shader, normal map, and unique texture.
 
 24a. (max X size) * u = x
 
