@@ -30,4 +30,4 @@ Bottom Cube: Cube made with custom shaders. New values for uniform added. Rotati
 
 24b. (max Y size) * (1 - v) = y
 
-24c. (3,6) = white
+24c. (3,5) = light gray
