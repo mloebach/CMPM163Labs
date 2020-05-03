@@ -45,3 +45,21 @@ Bottom Cube: Fifth Cube. Created to implement multi-tiles on one surface, in thi
 24b. (max Y size) * (1 - v) = y
 
 24c. (3,5) = light gray
+
+**Lab 5 (Unity Side)**
+
+()
+
+Notable changes to base:
+-Horizon changed to Neon Glow material
+-Ground changed to Basic Green material
+-Cloud textures changed to Metal Silver material
+-Main Character changed to Glass Clear material
+-Kart Color changed to Peach Color material
+-Main Character given a Witch Hat with altered scale and Neon Green material
+-Checkpoint rings added and spread across map
+-Laps System implemented
+-Particle System implemented. Particle image is pixelated asset.
+-Skybox Pattern changed. Same asset as Particles.
+-Speed of Kart changed.
+
