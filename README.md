@@ -77,7 +77,7 @@ Notable changes to base:
 **Lab 6 (Part 1, Unity Side)**
 
 Screenshot:
-![](lab6/Lab6Screenshot.PNG)
+![](lab6/Lab6Screenshot.png)
 
 Definitions:
 
