@@ -74,4 +74,21 @@ Notable changes to base:
 
 -Speed of Kart changed.
 
+**Lab 6 (Part 1, Unity Side)
+
+Screenshot:
+![](lab6/Lab6Screenshot.PNG)
+
+Definitions:
+
+-Spotlight: Spotlights are like flashlights. They illuminate everything in a cone, and respond to both rotation and position.
+
+-Point Light: Behaves like bare lightbulb. Based on pure position, no rotation influence
+
+-Directional Light: Behaves like the sun. Affects all objects in scene.  Based on rotation, position is irrelevant.
+
+-Area Light: Only apply in a light map. They only shine on one side of a rectangular plane. 
+
+
+
 
