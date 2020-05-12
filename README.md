@@ -74,7 +74,7 @@ Notable changes to base:
 
 -Speed of Kart changed.
 
-**Lab 6 (Part 1, Unity Side)
+**Lab 6 (Part 1, Unity Side)**
 
 Screenshot:
 ![](lab6/Lab6Screenshot.PNG)
@@ -89,6 +89,15 @@ Definitions:
 
 -Area Light: Only apply in a light map. They only shine on one side of a rectangular plane. 
 
+Real Life Material (Lamp):
+![](lab6/Lamp.jpg)
 
+Lamp's Material in Unity:
+![](lab6/LampMaterial.png)
 
+-Material: The lamp's material can be seen on the two spheres and cylinders in the scene. I started by picking out a dark grey albedo color, and adjusting the values until I found something that hit the right level of metallic I wanted. The position of these two lamps relative to the camera was important, as the main illumination was the Point Light behind it. The shine texture provided by default in sample projects worked well to define the height map.
+
+-Textures: There are two textures in the scene, a chain floor texture and a cardboard texture. The chain floor texture was applied to the ground and rightmost cylinder, and the cardboard texture was applied to the wall the spotlight ricochets off. Normals have been applied to the textures, copies of the original texture turned into Normal Maps.
+
+-Skybox: The skybox I added was a more vibrant image of the sky taken from Google Images.
 
