@@ -45,3 +45,59 @@ Bottom Cube: Fifth Cube. Created to implement multi-tiles on one surface, in thi
 24b. (max Y size) * (1 - v) = y
 
 24c. (3,5) = light gray
+
+**Lab 5 (Unity Side)**
+
+https://drive.google.com/open?id=1wTYKreOMFHArHlNPlc_DfoiYj7EF38r1
+
+Notable changes to base:
+
+-Horizon changed to Neon Glow material
+
+-Ground changed to Basic Green material
+
+-Cloud textures changed to Metal Silver material
+
+-Main Character changed to Glass Clear material
+
+-Kart Color changed to Peach Color material
+
+-Main Character given a Witch Hat with altered scale and Neon Green material
+
+-Checkpoint rings added and spread across map
+
+-Laps System implemented
+
+-Particle System implemented. Particle image is pixelated asset.
+
+-Skybox Pattern changed. Same asset as Particles.
+
+-Speed of Kart changed.
+
+**Lab 6 (Part 1, Unity Side)**
+
+Screenshot:
+![](lab6/Lab6Screenshot.PNG)
+
+Definitions:
+
+-Spotlight: Spotlights are like flashlights. They illuminate everything in a cone, and respond to both rotation and position.
+
+-Point Light: Behaves like bare lightbulb. Based on pure position, no rotation influence
+
+-Directional Light: Behaves like the sun. Affects all objects in scene.  Based on rotation, position is irrelevant.
+
+-Area Light: Only apply in a light map. They only shine on one side of a rectangular plane. 
+
+Real Life Material (Lamp):
+![](lab6/Lamp.jpg)
+
+Lamp's Material in Unity:
+![](lab6/LampMaterial.png)
+
+-Material: The lamp's material can be seen on the two spheres and cylinders in the scene. I started by picking out a dark grey albedo color, and adjusting the values until I found something that hit the right level of metallic I wanted. The position of these two lamps relative to the camera was important, as the main illumination was the Point Light behind it. The shine texture provided by default in sample projects worked well to define the height map.
+
+-Textures: There are two textures in the scene, a chain floor texture and a cardboard texture. The chain floor texture was applied to the ground and rightmost cylinder, and the cardboard texture was applied to the wall the spotlight ricochets off. Normals have been applied to the textures, copies of the original texture turned into Normal Maps.
+
+-Skybox: The skybox I added was a more vibrant image of the sky taken from Google Images.
+
