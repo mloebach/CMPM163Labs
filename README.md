@@ -101,3 +101,16 @@ Lamp's Material in Unity:
 
 -Skybox: The skybox I added was a more vibrant image of the sky taken from Google Images.
 
+**Lab 7 (Part 1, Unity Side)**
+
+https://drive.google.com/open?id=1kPfVaXa9USSXSShhtZGZ1LQe8-PwHlzQ
+
+This project was a fun one! I picked the Unity side. I got around to the tutorials very quickly, so I had a bit of time to build the scene how I wanted.
+
+The clouds you see in the scene are the distorted mesh spheres from the first tutorial. The albedos and opacities have been altered to be more red and clear, and scripts have been added to their behavior to make them scroll to the right of the scene and show back up on the other side with varying Y and Z values. There are a total of three active at a time.
+
+For the mountains, they're also distorted mesh spheres. Well. actually, six of them. They're positioned, rotated, and scaled in a way to resemble a mountain island. What you see in the project is roughly 30% of the Mountain Range, the other 70% is below the ocean waves.
+
+I applied the ocean waves fairly easily, with one catch: every possible albedo shade could only be a variant of red. I imagined the aesthetic I wanted to be a calm blue island, so I decided to move in a different direction: how about a Blood Moon themed scene? The skybox, mountain colors, and cloud colors will altered to support that look.
+
+For the final thing I wanted to add, I added the blood moon itself. It is textured with the Universal Pipeline's 2D Sprite Lit Default Shader, with a surface I found online. It emits a point light, but is very slight.
