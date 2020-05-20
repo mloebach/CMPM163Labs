@@ -115,4 +115,4 @@ I applied the ocean waves fairly easily, with one catch: every possible albedo s
 
 For the final thing I wanted to add, I added the blood moon itself. It is textured with the Universal Pipeline's 2D Sprite Lit Default Shader, with a surface I found online. It emits a point light, but is very slight.
 
-Partner Feedback: TBA
+Partner Feedback: My partner did the Three.JS section of the lab. I thought their decision of where they placed the camera was cool, it made it look like you were standing on a mountaintop! I had finished my project by the time my partner was ready.
