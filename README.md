@@ -130,4 +130,4 @@ The environment of Black City is one where the locations and heights of most bui
 
 (Pictures of My Project in Unity)
 
-Partner Check In: TBA (Project finished before theirs began)
+Partner Check In: My Partner did the Unity Side of the Project! I finished roughly before they started, so we didn't really work together. My partner had the most challenge with the Perlin Noise aspect of the lab, but also found it to be the most interesting part.
