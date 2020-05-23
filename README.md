@@ -116,3 +116,18 @@ I applied the ocean waves fairly easily, with one catch: every possible albedo s
 For the final thing I wanted to add, I added the blood moon itself. It is textured with the Universal Pipeline's 2D Sprite Lit Default Shader, with a surface I found online. It emits a point light, but is very slight.
 
 Partner Feedback: My partner did the Three.JS section of the lab. I thought their decision of where they placed the camera was cool, it made it look like you were standing on a mountaintop! I had finished my project by the time my partner was ready.
+
+**Lab 8 (Part 1, Unity Side)**
+
+For this Project, I decided to base my city off of Black City from Pokemon Black!
+
+![](lab8/BlackCityArt.png) ![](lab8/BlackCityInGame.png) ![](lab8/BlackCityInGame2.png)
+
+
+The environment of Black City is one where the locations and heights of most buildings are determined by the player's actions, so having it inspire my procedural world was fitting! Each building is a collection of cubes, which make up the roof, body, and lights. The textures were created by hand digitally, and the buidling's Materials were structured so the textures could repeat as many times as I needed. There are six building types: 3x1, 3x2, 4x3, 4x4, 5x5, and 5x6. All of these buildings have counterparts in game, with the tallest having unique roofs. I wanted a lot more control over the size, positioning, and quantity of the buildings, so I edited the code from the tutorial to be more efficient and easily editible in what values could be changed. Overall, I am incredibly proud of my work in the project!
+
+![](lab8/ProjectBlackCity1.png) ![](lab8/ProjectBlackCity2.png) ![](lab8/ProjectBlackCity3.png)
+
+(Pictures of My Project in Unity)
+
+Partner Check In: TBA (Project finished before theirs began)
