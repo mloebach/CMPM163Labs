@@ -114,3 +114,5 @@ For the mountains, they're also distorted mesh spheres. Well. actually, six of t
 I applied the ocean waves fairly easily, with one catch: every possible albedo shade could only be a variant of red. I imagined the aesthetic I wanted to be a calm blue island, so I decided to move in a different direction: how about a Blood Moon themed scene? The skybox, mountain colors, and cloud colors will altered to support that look.
 
 For the final thing I wanted to add, I added the blood moon itself. It is textured with the Universal Pipeline's 2D Sprite Lit Default Shader, with a surface I found online. It emits a point light, but is very slight.
+
+Partner Feedback: My partner did the Three.JS section of the lab. I thought their decision of where they placed the camera was cool, it made it look like you were standing on a mountaintop! I had finished my project by the time my partner was ready.
