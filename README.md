@@ -126,7 +126,7 @@ For this Project, I decided to base my city off of Black City from Pokemon Black
 
 The environment of Black City is one where the locations and heights of most buildings are determined by the player's actions, so having it inspire my procedural world was fitting! Each building is a collection of cubes, which make up the roof, body, and lights. The textures were created by hand digitally, and the buidling's Materials were structured so the textures could repeat as many times as I needed. There are six building types: 3x1, 3x2, 4x3, 4x4, 5x5, and 5x6. All of these buildings have counterparts in game, with the tallest having unique roofs. I wanted a lot more control over the size, positioning, and quantity of the buildings, so I edited the code from the tutorial to be more efficient and easily editible in what values could be changed. Overall, I am incredibly proud of my work in the project!
 
-![](lab8/ProjectBlackCity1.png) ![](lab8/ProjectBlackCity2.png) ![](lab8/ProjectBlackCity3.png)
+![](lab8/ProjectBlackCity1.PNG) ![](lab8/ProjectBlackCity2.PNG) ![](lab8/ProjectBlackCity3.PNG)
 
 (Pictures of My Project in Unity)
 
